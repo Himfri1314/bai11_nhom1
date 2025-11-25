@@ -98,6 +98,3 @@
       <p>< p>Cảm ơn bạn đã ghé thăm!< /p></p>
       <p>< /body></p>
       <p>< /html></p>
-    </div>
-  </body>
-</html>
