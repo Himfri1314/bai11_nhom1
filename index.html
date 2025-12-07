@@ -3,6 +3,95 @@
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+   <body>
+ <style>
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+/* MENU CHÍNH */
+.menu {
+    display: flex;
+    background: #fff;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.menu-item {
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #243B9A;
+    font-weight: bold;
+}
+.menu-item a {
+    color: #243B9A;
+    text-decoration: none;
+}
+.menu-item:hover,
+.menu-item a:hover {
+    color: #6699CC;
+}
+/* DROPDOWN */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    min-width: 200px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 99;
+}
+.dropdown a {
+    display: block;
+    padding: 12px 20px;
+    color: #243B9A;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+.dropdown a:hover {
+    background: #f0f0f0;
+    color: #000;
+}
+/* HIỂN THỊ DROPDOWN KHI HOVER */
+.menu-item:hover .dropdown {
+    display: block;
+}
+</style>
+<body>
+<div class="menu">
+    <div class="menu-item">
+        <a href="https://himfri1314.github.io/Baocao_tinhoc_nhom1_12V/">TRANG CHỦ</a>
+    </div>
+    <div class="menu-item">
+        THÀNH VIÊN ▼
+        <div class="dropdown">
+            <a href="#">PHƯƠNG DUYÊN</a>
+            <a href="#">MINH CHÂU</a>
+            <a href="#">KHẢ HÂN</a>
+            <a href="#">QUỲNH NHƯ</a>
+        </div>
+    </div>
+    <div class="menu-item">
+        TÀI LIỆU ▼
+        <div class="dropdown">
+            <a href="https://himfri1314.github.io/bai7_nhom1/">BÀI 7</a>
+            <a href="https://himfri1314.github.io/bai8_nhom1/">BÀI 8</a>
+            <a href="https://himfri1314.github.io/bai9_nhom1/">BÀI 9</a>
+            <a href="https://himfri1314.github.io/bai10_nhom1/">BÀI 10</a>
+            <a href="https://himfri1314.github.io/bai11_nhom1/">BÀI 11</a>
+            <a href="https://himfri1314.github.io/bai12_nhom1/">BÀI 12</a>
+            <a href="https://himfri1314.github.io/bai13_nhom1/">BÀI 13</a>
+            <a href="https://himfri1314.github.io/bai14_nhom1/">BÀI 14</a>
+            <a href="https://himfri1314.github.io/bai15_nhom1/">BÀI 15</a>
+            <a href="https://himfri1314.github.io/bai16_nhom1/">BÀI 16</a>
+            <a href="https://himfri1314.github.io/bai17_nhom1/">BÀI 17</a>
+            <a href="https://himfri1314.github.io/bai18_nhom1/">BÀI 18</a>
+        </div>
+    </div>
+</div>
+</body>
   <body>
      <!-- Banner -->
     <div class="banner">
@@ -12,7 +101,7 @@
     <style>
       body {
     margin: 0;
-    font-family: 'Times New Roman';
+    font-family: 'Arial';
     background-color: #f2f2f2;
 }
       /* Banner nền ảnh */
@@ -97,4 +186,5 @@
       <p>< /ul></p>
       <p>< p>Cảm ơn bạn đã ghé thăm!< /p></p>
       <p>< /body></p>
+
       <p>< /html></p>
